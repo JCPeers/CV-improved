@@ -1,0 +1,23 @@
+h1 {
+  font-family: "Nixie One", cursive;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.contact-details {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.lines {
+  border-bottom: 1px solid black;
+  flex: 1;
+}
