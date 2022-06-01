@@ -1,23 +1,76 @@
-h1 {
+body {
   font-family: "Nixie One", cursive;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+p {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+li {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+/* **********top name section ****************** */
+
+h1 {
   text-align: center;
   font-size: 2.5em;
+  color: #3797a4;
 }
 
 .contact-details {
   text-align: center;
 }
 
-h3 {
-  text-align: center;
+.top-container {
+  padding-top: 20px;
 }
+
+/* ***********section titles ************* */
 
 .container {
   display: flex;
   align-items: center;
+  margin-top: 30px;
+  color: #3797a4;
 }
 
 .lines {
   border-bottom: 1px solid black;
   flex: 1;
+}
+
+/* ************ work information section ************** */
+
+.work {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.work-info {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+/* *************** skills section ***************** */
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* ************* certification section **************** */
+
+.certificate-container {
+  display: flex;
+  justify-content: center;
 }
